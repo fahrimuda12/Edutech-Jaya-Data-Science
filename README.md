@@ -62,10 +62,10 @@ pip list
 ## Business Dashboard
 Untuk membantu Jaya Jaya Institut dalam memahami performa akademik mahasiswa serta memantau risiko dropout secara berkala, telah dibuat sebuah **business dashboard interaktif menggunakan Metabase**. Dashboard ini dirancang dengan fokus pada kemudahan interpretasi oleh pihak manajemen non-teknis, sehingga mereka dapat dengan cepat mengakses informasi penting tanpa perlu menganalisis data secara manual.
 
-Dashboard [Attrition Dashboard](./Attrition%20Dashboard.pdf) yang ditampilkan memberikan visualisasi komprehensif terkait fenomena mahasiswa keluar (dropout) dan secara efektif menjawab beberapa permasalahan utama yang dihadapi Jaya Jaya Inisitut, antara lain:
+Dashboard [Student Dashboard](./Edutech%20Performance%20Student.pdf) yang ditampilkan memberikan visualisasi komprehensif terkait fenomena mahasiswa tidak selesai studi (dropout) dan secara efektif menjawab beberapa permasalahan utama yang dihadapi Jaya Jaya Inisitut, antara lain:
 
 1. Tingginya Dropout Rate
-   Dashboard menampilkan angka attrition 32.12%, memberi gambaran jelas tentang tingkat mahasiswa keluar tinggi.
+   Dashboard menampilkan angka dropout 32.12%, memberi gambaran jelas tentang tingkat mahasiswa tidak selesai studi tinggi.
 
 2. Pemahaman Penyebab Dropout
    Disajikan analisis faktor-faktor seperti:
@@ -84,7 +84,7 @@ Dashboard [Attrition Dashboard](./Attrition%20Dashboard.pdf) yang ditampilkan me
    Visualisasi data mendukung kebijakan pihak institut berbasis insight dari data sumber, bukan asumsi.
 
 6. Prediksi Risiko Dropout Mahasiswa Aktif
-   Daftar mahasiswa aktif yang diklasifikasikan berdasarkan tingkat risiko (tinggi / rendah) berdasarkan model prediktif.
+   Daftar mahasiswa aktif yang diklasifikasikan berdasarkan tingkat risiko (tinggi / rendah) berdasarkan prediktif analysis.
 
 ## Menjalankan Sistem Machine Learning
 Untuk menjalankan prototype sistem machine learning yang telah dibuat, ikuti langkah-langkah berikut:
@@ -130,7 +130,7 @@ Untuk menjalankan prototype sistem machine learning yang telah dibuat, ikuti lan
 **Link Prototype**: [Prototype Machine Learning](./prototype_machine_learning)
 
 ## Conclusion
-Jelaskan konklusi dari proyek yang dikerjakan.
+Proyek ini berhasil memberikan solusi berbasis data untuk mengetahui permasalahan tingginya tingkat dropout mahasiswa di Jaya Jaya Institut. Dengan memanfaatkan analisis data, model prediksi machine learning, dan dashboard interaktif, institusi kini memiliki alat yang efektif untuk memantau, menganalisis, dan mengantisipasi risiko dropout mahasiswa. Hasil proyek ini tidak hanya membantu dalam memahami faktor-faktor utama yang memengaruhi dropout, tetapi juga memberikan rekomendasi actionable untuk meningkatkan kualitas layanan akademik, efisiensi operasional, dan reputasi institusi secara keseluruhan.
 
 ### Rekomendasi Action Items
 - **Meningkatkan Dukungan Akademik**: Menyediakan program bimbingan belajar, mentoring, atau workshop untuk membantu mahasiswa yang kesulitan dalam akademik.
