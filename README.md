@@ -125,9 +125,7 @@ Untuk menjalankan prototype sistem machine learning yang telah dibuat, ikuti lan
    ```
 
 7. **Akses Prototype**
-   Prototype dapat diakses melalui Streamlit Cloud melalui alamat berikut `http://localhost:8501`.
-
-**Link Prototype**: [Prototype Machine Learning](./prototype_machine_learning)
+   Prototype dapat diakses melalui Streamlit Cloud melalui alamat berikut `https://edutech-jaya-institut.streamlit.app/`.
 
 ## Conclusion
 Proyek ini berhasil memberikan solusi berbasis data untuk mengetahui permasalahan tingginya tingkat dropout mahasiswa di Jaya Jaya Institut. Dengan memanfaatkan analisis data, model prediksi machine learning, dan dashboard interaktif, institusi kini memiliki alat yang efektif untuk memantau, menganalisis, dan mengantisipasi risiko dropout mahasiswa. Hasil proyek ini tidak hanya membantu dalam memahami faktor-faktor utama yang memengaruhi dropout, tetapi juga memberikan rekomendasi actionable untuk meningkatkan kualitas layanan akademik, efisiensi operasional, dan reputasi institusi secara keseluruhan.
