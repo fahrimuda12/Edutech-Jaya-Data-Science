@@ -24,16 +24,16 @@ Proyek ini difokuskan pada upaya untuk memahami dan memprediksi potensi dropout 
    - Menganalisis distribusi status mahasiswa (Dropout, Graduate, Enrolled).
    - Mengidentifikasi pola dan faktor-faktor penting yang berhubungan dengan dropout seperti nilai, status utang, kehadiran, dan beasiswa.
 
-3. Pembangunan Model Prediksi Dropout
+3. Pembangunan Model Prediksi Status Mahasiswa ✅
    - Menetapkan variabel target (Status) dan fitur-fitur prediktif.
    - Membangun model klasifikasi untuk memprediksi kemungkinan mahasiswa akan dropout.
    - Melakukan pelatihan, validasi, dan evaluasi model menggunakan metrik seperti akurasi, precision, recall, dan ROC-AUC.
 
-4. Interpretasi Hasil dan Penentuan Faktor Kunci
+4. Interpretasi Hasil dan Penentuan Faktor Kunci ✅
    - Menggunakan teknik seperti feature importance untuk mengidentifikasi variabel yang paling memengaruhi keputusan dropout.
    - Menyediakan insight yang actionable bagi pihak institusi.
 
-5. Visualisasi dan Dashboard
+5. Visualisasi dan Dashboard ✅
    - Menyusun dashboard interaktif menggunakan Metabase untuk:
    - Memantau status mahasiswa.
    - Mengidentifikasi mahasiswa yang berisiko dropout.
