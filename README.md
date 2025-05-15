@@ -101,16 +101,24 @@ password:root123
 Untuk menjalankan prototype sistem machine learning yang telah dibuat, ikuti langkah-langkah berikut:
 
 1. **Persiapan Lingkungan**
+   Membuat virtual environtment agar tetap terisolasi (opsional)
+   ```bash
+      python -m venv myenv
+      myenv\Scripts\activate
+   ```
    Pastikan semua library yang diperlukan telah terinstal. Jika belum, jalankan perintah berikut:
    ```bash
    pip install pandas numpy scikit-learn matplotlib seaborn
+
+   # menggunakan file requirement yang sudah dibuat
+   pip install -r requirements.txt
    ```
 
 2. **Muat Dataset**
-   Pastikan file `data.csv` tersedia di direktori kerja Anda. Dataset ini akan digunakan untuk pelatihan dan evaluasi model.
+   Pastikan file `data.csv` tersedia di direktori kerja Anda. Dataset ini akan digunakan untuk pelatihan dan evaluasi model. [Jaya Jaya Institut - Performance Studet](dataset/data.csv)
 
 3. **Jalankan Notebook**
-   Buka file `notebook.ipynb` menggunakan Jupyter Notebook:
+   Buka file `notebook.ipynb` dan jalankan per-stepnya menggunakan Jupyter Notebook:
    ```bash
    jupyter notebook notebook.ipynb
    ```
@@ -130,7 +138,7 @@ Untuk menjalankan prototype sistem machine learning yang telah dibuat, ikuti lan
    ```
 
 6. **Prototype Web atau API**
-   Prototype dapat diakses melalui Streamlit Cloud. Jalankan aplikasi dengan perintah berikut:
+   Prototype dapat diakses melalui Streamlit Cloud. Jalankan aplikasi `app.py` dengan perintah berikut:
    ```bash
    streamlit run app.py
    ```
@@ -141,14 +149,19 @@ Untuk menjalankan prototype sistem machine learning yang telah dibuat, ikuti lan
 ## Conclusion
 Proyek ini berhasil memberikan solusi berbasis data untuk mengetahui permasalahan tingginya tingkat dropout mahasiswa di Jaya Jaya Institut. Dengan memanfaatkan analisis data, model prediksi machine learning, dan dashboard interaktif, institusi kini memiliki alat yang efektif untuk memantau, menganalisis, dan mengantisipasi risiko dropout mahasiswa. Hasil proyek ini tidak hanya membantu dalam memahami faktor-faktor utama yang memengaruhi dropout, tetapi juga memberikan rekomendasi actionable untuk meningkatkan kualitas layanan akademik, efisiensi operasional, dan reputasi institusi secara keseluruhan. Berdasarkan business dashboard yang diberikan dan machine learning yang dibentuk kita juga dapat mengetahui karakteristik dari siswa yang terkena dropout antara lain:
 1. Banyaknya kurikulum per-semester yang di setujui berbanding dengan kurikulum  yang di tolak
+   
    Semakin kecil kurikulum yang disetujui dibadningkan dengan kurikulum yang di tolak per semester menadakan mahasiswa kemungkinan bakal dropout
 2. Penurunan jarak antara nilai admission dengan nilai semester
+   
    Semakin menurun antara nilai admission dengan nilai semesternya maka kemungkinan mahasiswa akan dropout
 3. Nilai admission <120
+   
    Mahasiswa dropout rata rata memiliki nilai admission yang kurang bagus dimana dibawah 120
 4. Mahasiswa yang terkategori debtor (meminjam)
+   
    Mahasiswa yang dropout didonimasi yang memiliki pinjaman
 5. Jurusan dan waktu belajar
+   
    Dropout paling banyak berasal dari Management dan yang mengambil kuliah di waktu malam
 
 ### Rekomendasi Action Items
