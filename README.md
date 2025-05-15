@@ -41,12 +41,16 @@ Proyek ini difokuskan pada upaya untuk memahami dan memprediksi potensi dropout 
 
 ### Persiapan
 
-Sumber data: data.csv
+Sumber data: [Jaya Jaya Institut - Performance Studet](dataset/data.csv)
 
 Setup environment:
 ```
-# Install necessary Python libraries
-pip install pandas numpy matplotlib seaborn scikit-learn
+# Membuat virtual environment (Opsional)
+python -m venv myenv
+myenv\Scripts\activate
+
+# Install depedency yang dibutuhkan
+pip install -r requirements.txt
 
 # Install Metabase for dashboard creation
 # Follow the official Metabase installation guide for your operating system
@@ -85,6 +89,13 @@ Dashboard [Student Dashboard](./Edutech%20Performance%20Student.pdf) yang ditamp
 
 6. Prediksi Risiko Dropout Mahasiswa Aktif
    Daftar mahasiswa aktif yang diklasifikasikan berdasarkan tingkat risiko (tinggi / rendah) berdasarkan prediktif analysis.
+
+Kredensial Business Dashboard Metabase
+```
+username/email:root@mail.com
+password:root123
+```
+
 
 ## Menjalankan Sistem Machine Learning
 Untuk menjalankan prototype sistem machine learning yang telah dibuat, ikuti langkah-langkah berikut:
@@ -128,7 +139,12 @@ Untuk menjalankan prototype sistem machine learning yang telah dibuat, ikuti lan
    Prototype dapat diakses melalui Streamlit Cloud melalui alamat berikut `https://edutech-jaya-institut.streamlit.app/`.
 
 ## Conclusion
-Proyek ini berhasil memberikan solusi berbasis data untuk mengetahui permasalahan tingginya tingkat dropout mahasiswa di Jaya Jaya Institut. Dengan memanfaatkan analisis data, model prediksi machine learning, dan dashboard interaktif, institusi kini memiliki alat yang efektif untuk memantau, menganalisis, dan mengantisipasi risiko dropout mahasiswa. Hasil proyek ini tidak hanya membantu dalam memahami faktor-faktor utama yang memengaruhi dropout, tetapi juga memberikan rekomendasi actionable untuk meningkatkan kualitas layanan akademik, efisiensi operasional, dan reputasi institusi secara keseluruhan.
+Proyek ini berhasil memberikan solusi berbasis data untuk mengetahui permasalahan tingginya tingkat dropout mahasiswa di Jaya Jaya Institut. Dengan memanfaatkan analisis data, model prediksi machine learning, dan dashboard interaktif, institusi kini memiliki alat yang efektif untuk memantau, menganalisis, dan mengantisipasi risiko dropout mahasiswa. Hasil proyek ini tidak hanya membantu dalam memahami faktor-faktor utama yang memengaruhi dropout, tetapi juga memberikan rekomendasi actionable untuk meningkatkan kualitas layanan akademik, efisiensi operasional, dan reputasi institusi secara keseluruhan. Berdasarkan business dashboard yang diberikan dan machine learning yang dibentuk kita dapat mengetahui karakteristik dari siswa yang terkena dropout antara lain:
+1. Banyaknya kurikulum per-semester yang di setujui berbanding dengan kurikulum  yang di tolak
+   Semakin kecil kurikulum yang disetujui dibadningkan dengan kurikulum yang di tolak per semester menadakan mahasiswa kemungkinan bakal dropout
+2. Penurunan jarak antara nilai admission dengan nilai semester
+   Semakin menurun antara nilai admission dengan nilai semesternya maka kemungkinan mahasiswa akan dropout
+3. 
 
 ### Rekomendasi Action Items
 - **Meningkatkan Dukungan Akademik**: Menyediakan program bimbingan belajar, mentoring, atau workshop untuk membantu mahasiswa yang kesulitan dalam akademik.
