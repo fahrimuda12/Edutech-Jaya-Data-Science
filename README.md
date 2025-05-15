@@ -52,10 +52,10 @@ myenv\Scripts\activate
 # Install depedency yang dibutuhkan
 pip install -r requirements.txt
 
-# Install Metabase for dashboard creation
+# Install Metabase untuk membuat dashboard
 # Follow the official Metabase installation guide for your operating system
 
-# Set up Jupyter Notebook for analysis
+# Set up Jupyter Notebook untuk train model dan analysis data
 pip install notebook
 
 # Verify installation
